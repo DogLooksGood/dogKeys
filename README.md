@@ -24,7 +24,7 @@ xmodmap -e "keycode 66 = Hyper_L"
 xmodmap -e "remove mod4 = Hyper_L"
 xmodmap -e "add control = Hyper_L"
 xmodmap -e "keycode 166 = Caps_Lock"
-xcape -e "Hyper_L=Caps_Lock"
+xcape -t 1000 -e "Hyper_L=Caps_Lock"
 
 xmodmap -e "keycode 36 = Hyper_R"
 xmodmap -e "add control = Hyper_R"
